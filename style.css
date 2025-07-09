@@ -1,0 +1,40 @@
+ 
+ .kaif{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100% }
+ 
+ 
+ #img{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ h1{
+    display: flex;
+    justify-content: left;
+
+ }
+
+ #img p {
+    padding: 10px;
+ }
+ #img{
+    border-radius: 50px;
+ }
+
+
+ p{
+    font-weight: 300;
+color: rgb(0, 0, 0);
+ }
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
