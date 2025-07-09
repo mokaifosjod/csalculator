@@ -1,40 +1,75 @@
- 
- .kaif{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    width: 100% }
- 
- 
- #img{
-    display: flex;
-    justify-content: space-between;
-    
- }
- h1{
-    display: flex;
-    justify-content: left;
-
- }
-
- #img p {
-    padding: 10px;
- }
- #img{
-    border-radius: 50px;
- }
-
-
- p{
-    font-weight: 300;
-color: rgb(0, 0, 0);
- }
-
-.table{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
 }
 
+.kaif {
+  padding: 20px;
+  text-align: center;
+}
 
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.info p {
+  max-width: 600px;
+  padding: 10px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #2980b9;
+}
